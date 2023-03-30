@@ -85,7 +85,7 @@
       const city = document.getElementById("city");
 
       totalPrice.textContent =
-        "$" + (parseInt(localStorage.getItem("priceData")) + shippingCost);
+        "$" + (parseFloat(localStorage.getItem("priceData")) + shippingCost);
       price.textContent = "$" + localStorage.getItem("priceData");
       productName.textContent = localStorage.getItem("nameData");
       image.src = localStorage.getItem("imgData");

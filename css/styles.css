@@ -3096,7 +3096,7 @@ textarea.form-control.is-invalid {
   display: inline-block;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #ffffff;
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
@@ -3105,7 +3105,7 @@ textarea.form-control.is-invalid {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  background-color: transparent;
+  background-color: var(--bs-primary);
   border: 1px solid transparent;
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
@@ -3699,7 +3699,6 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-dark {
-  color: #212529;
   border-color: #212529;
 }
 .btn-outline-dark:hover {
@@ -8137,7 +8136,7 @@ fieldset:disabled .btn {
 
 .text-white-50 {
   --bs-text-opacity: 1;
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: rgba(255, 255, 255, 0.8) !important;
 }
 
 .text-reset {
@@ -11795,7 +11794,7 @@ fieldset:disabled .btn {
   bottom: 0px;
   position: absolute;
   right: 0px;
-  color: #4488dd;
+  color: var(--bs-primary);
 }
 #order-css .order-table td:first-of-type {
   width: 25%;
@@ -11822,7 +11821,7 @@ fieldset:disabled .btn {
 }
 #order-css .pay-btn {
   border: none;
-  background: #22b877;
+  background: var(--bs-success);
   line-height: 2em;
   border-radius: 10px;
   font-size: 19px;
@@ -11836,7 +11835,7 @@ fieldset:disabled .btn {
   transition: all 0.2s ease;
 }
 #order-css .pay-btn:hover {
-  background: #22a877;
+  background: var(--bs-success);
   color: #eee;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
@@ -11872,7 +11871,7 @@ fieldset:disabled .btn {
   margin-right: auto;
 }
 #order-css .credit-info {
-  background: #4488dd;
+  background: var(--bs-primary);
   height: 100%;
   width: 50%;
   color: #eee;
