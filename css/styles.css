@@ -11704,7 +11704,7 @@ fieldset:disabled .btn {
   margin-bottom: 0px;
   margin-top: 25px;
   text-align: center;
-  font-weight: 200;
+  font-weight: bold;
   font-size: 19px;
   font-size: 1.2rem;
 }
@@ -11831,6 +11831,7 @@ fieldset:disabled .btn {
 #order-css .order-info-content {
   table-layout: fixed;
 }
+
 #order-css .full-width {
   width: 100%;
 }
@@ -11843,11 +11844,13 @@ fieldset:disabled .btn {
   font-size: 1.2rem;
   color: #fff;
   cursor: pointer;
-  position: absolute;
+  position: static;
   bottom: 25px;
   width: calc(100% - 50px);
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 #order-css .pay-btn:hover {
   background: var(--bs-success);
@@ -11949,6 +11952,7 @@ fieldset:disabled .btn {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
+  overflow: auto;
 }
 
 .margin-btn {
