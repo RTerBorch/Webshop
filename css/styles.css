@@ -3113,6 +3113,13 @@ textarea.form-control.is-invalid {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
+
+.btn-homepage {
+  background-color: rgba(
+    120, 194, 250,
+    var(--bs-bg-opacity)
+  )
+}
 @media (prefers-reduced-motion: reduce) {
   .btn {
     transition: none;
@@ -8160,6 +8167,14 @@ fieldset:disabled .btn {
   --bs-text-opacity: 1;
 }
 
+.bg-homepage {
+  --bs-bg-opacity: 1;
+  background-color: rgba(
+    120, 194, 250,
+    var(--bs-bg-opacity)
+  ) !important;
+}
+
 .bg-primary {
   --bs-bg-opacity: 1;
   background-color: rgba(
@@ -11753,7 +11768,7 @@ fieldset:disabled .btn {
   width: 100%;
 }
 #order-css .half-input-table td:first-of-type {
-  border-right: 10px solid #4488dd; }
+  border-right: 10px solid white; }
 
 #order-css .color-red {
   color: red;
@@ -11856,7 +11871,7 @@ fieldset:disabled .btn {
   font-size: 1rem;
 }
 #order-css .input-field {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgb(120 194 255 / 20%);
   margin-bottom: 10px;
   margin-top: 3px;
   line-height: 1.5em;
@@ -11864,17 +11879,17 @@ fieldset:disabled .btn {
   font-size: 1.3rem;
   border: none;
   padding: 5px 10px 5px 10px;
-  color: #fff;
+  color: black;
   box-sizing: border-box;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
 #order-css .credit-info {
-  background: var(--bs-primary);
+  background: var(--bs-white);
   height: 100%;
   width: 50%;
-  color: #eee;
+  color: black;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -11935,6 +11950,11 @@ fieldset:disabled .btn {
   display: flex;
   width: 100%;
 }
+
+.margin-btn {
+  margin-top: 1em;
+}
+
 @media (max-width: 600px) {
   #order-css .window {
     width: 100%;
@@ -11957,4 +11977,6 @@ fieldset:disabled .btn {
   #order-css .pay-btn {
     border-radius: 0px;
   }
+
+  
 }

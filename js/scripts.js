@@ -62,7 +62,7 @@ function buildProduktCard(json) {
              <!-- Product price-->
              <div class="text-center">$${json.price}</div> 
              
-            <div class="text-center"><a class="btn btn-outline-dark mt-auto" onclick="orderPage(${json.id})">Buy Product</a></div>
+            <div class="text-center"><a class="btn btn-outline-dark mt-auto btn-homepage" onclick="orderPage(${json.id})">Buy Product</a></div>
         </div>
     </div>
 </div>
